@@ -8,7 +8,7 @@ theme = "gokarna"
   avatarSize = "size-m"
   avatarURL = "images/avatar.jpg"
 
-  description = "Sky above, sand below and peace within" 
+  description = "海內存知己，天涯若比鄰" 
   footer = "Ryantsui" 
   metaKeywords = ["blog", "gokarna", "hugo"] 
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
