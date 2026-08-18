@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+locale = 'zh-tw'
+title = 'Ryantsui 的主頁'
+theme = "gokarna"
+
+[params]
+  avatarAltText = "avatar"
+  avatarSize = "size-m"
+  avatarURL = "images/avatar.jpg"
+
+  description = "Sky above, sand below and peace within" 
+  footer = "Ryantsui" 
+  metaKeywords = ["blog", "gokarna", "hugo"] 
+  showBackToTopButton = true # true or false for "back to top" button on posts and pages
+
+  socialIcons = [
+    {name = "facebook", url = "https://fb.me/ryantsui1109"},
+    {name = "github", url = "https://github.com/ryantsui1109"},
+    {name = "stackoverflow", url = "https://stackoverflow.com/users/27326118/ryantsui"},
+    {name = "instagram", url = "https://www.instagram.com/ryantsui1109/"},
+    {name = "email", url = "mailto:example@example.com"},
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
