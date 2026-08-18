@@ -1,29 +1,29 @@
 baseURL = 'https://ryantsui.dpdns.org/'
 locale = 'zh-tw'
-title = 'Ryantsui 的主頁'
 theme = "gokarna"
+title = 'Ryantsui 的主頁'
 
 [params]
-  avatarAltText = "avatar"
-  avatarSize = "size-m"
-  avatarURL = "images/avatar.jpg"
+avatarAltText = "avatar"
+avatarSize = "size-m"
+avatarURL = "images/avatar.jpg"
 
-  description = "海內存知己，天涯若比鄰" 
-  footer = "Ryantsui" 
-  metaKeywords = ["blog", "gokarna", "hugo"] 
-  showBackToTopButton = true # true or false for "back to top" button on posts and pages
+description = "海內存知己，天涯若比鄰" 
+footer = "Ryantsui" 
+metaKeywords = ["blog", "gokarna", "hugo"] 
+showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
-  socialIcons = [
-    {name = "facebook", url = "https://fb.me/ryantsui1109"},
-    {name = "github", url = "https://github.com/ryantsui1109"},
-    {name = "stackoverflow", url = "https://stackoverflow.com/users/27326118/ryantsui"},
-    {name = "instagram", url = "https://www.instagram.com/ryantsui1109/"},
-    {name = "email", url = "mailto:example@example.com"},
-  ]
+socialIcons = [
+  {name = "facebook", url = "https://fb.me/ryantsui1109"},
+  {name = "instagram", url = "https://www.instagram.com/ryantsui1109/"},
+  {name = "github", url = "https://github.com/ryantsui1109"},
+  {name = "stackoverflow", url = "https://stackoverflow.com/users/27326118/ryantsui"},
+  {name = "email", url = "mailto:example@example.com"},
+]
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "<span data-feather='home'></span>"
-    url = "/"
-    weight = 1
+[[menu.main]]
+name = "Home"
+pre = "<span data-feather='home'></span>"
+url = "/"
+weight = 1
