@@ -27,3 +27,8 @@ name = "Home"
 pre = "<span data-feather='home'></span>"
 url = "/"
 weight = 1
+[[menu.main]]
+name = "Login"
+pre = "<span data-feather='lock'></span>"
+url = "/login"
+weight = 1
