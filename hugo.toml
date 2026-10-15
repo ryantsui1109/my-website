@@ -1,4 +1,4 @@
-baseURL = 'https://ryantsui.dpdns.org/'
+baseURL = 'https://ryantsui.net/'
 locale = 'zh-tw'
 theme = "gokarna"
 title = 'Ryantsui 的主頁'
